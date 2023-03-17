@@ -40,7 +40,32 @@ class MainFragmentScreen @JvmOverloads constructor(
         val list = mutableListOf<MainModel>()
 
         var model = MainModel()
+        model.type = MainModelType.CUSTOM_TEXT_VIEW
+        model.isInComing = false
+        model.name = "askdas;ld asdsdv sdsd sd f fwsd"
+        list.add(model)
+
+        model = MainModel()
+        model.type = MainModelType.CUSTOM_TEXT_VIEW
+        model.isInComing = false
+        model.name = "askdas;ld asdsdv sdsd sd f fwsd"
+        list.add(model)
+
+        model = MainModel()
+        model.type = MainModelType.CUSTOM_TEXT_VIEW
+        model.isInComing = false
+        model.name = "askdas;ld asdsdv sdsd sd f fwsd"
+        list.add(model)
+
+
+        model = MainModel()
         model.type = MainModelType.ITEM
+        model.isInComing = false
+        model.name = "askdas;ld asdsdv sdsd sd f fwsd"
+        list.add(model)
+
+        model = MainModel()
+        model.type = MainModelType.CUSTOM
         model.isInComing = false
         model.name = "askdas;ld asdsdv sdsd sd f fwsd"
         list.add(model)
@@ -52,7 +77,31 @@ class MainFragmentScreen @JvmOverloads constructor(
         list.add(model)
 
         model = MainModel()
+        model.type = MainModelType.CUSTOM
+        model.isInComing = true
+        model.name = "askdas;ld asdsdv sdsd sd f fwsd"
+        list.add(model)
+
+        model = MainModel()
         model.type = MainModelType.ITEM
+        model.isInComing = true
+        model.name = "askdas;ld asdsdv sdsd sd f fwsd"
+        list.add(model)
+
+        model = MainModel()
+        model.type = MainModelType.ITEM
+        model.isInComing = true
+        model.name = "askdas;ld asdsdv sdsd sd f fwsd"
+        list.add(model)
+
+        model = MainModel()
+        model.type = MainModelType.ITEM
+        model.isInComing = true
+        model.name = "askdas;ld asdsdv sdsd sd f fwsd"
+        list.add(model)
+
+        model = MainModel()
+        model.type = MainModelType.CUSTOM
         model.isInComing = false
         model.name = "askdas;ld asdsdv sdsd sd f fwsd"
         list.add(model)
@@ -62,73 +111,6 @@ class MainFragmentScreen @JvmOverloads constructor(
         model.isInComing = true
         model.name = "askdas;ld asdsdv sdsd sd f fwsd"
         list.add(model)
-
-        model = MainModel()
-        model.type = MainModelType.ITEM
-        model.isInComing = true
-        model.name = "askdas;ld asdsdv sdsd sd f fwsd"
-        list.add(model)
-
-        model = MainModel()
-        model.type = MainModelType.ITEM
-        model.isInComing = true
-        model.name = "askdas;ld asdsdv sdsd sd f fwsd"
-        list.add(model)
-
-        model = MainModel()
-        model.type = MainModelType.ITEM
-        model.isInComing = true
-        model.name = "askdas;ld asdsdv sdsd sd f fwsd"
-        list.add(model)
-
-        model = MainModel()
-        model.type = MainModelType.ITEM
-        model.isInComing = false
-        model.name = "askdas;ld asdsdv sdsd sd f fwsd"
-        list.add(model)
-
-        model = MainModel()
-        model.type = MainModelType.ITEM
-        model.isInComing = true
-        model.name = "askdas;ld asdsdv sdsd sd f fwsd"
-        list.add(model)
-
-        model = MainModel()
-        model.type = MainModelType.ITEM
-        model.isInComing = true
-        model.name = "askdas;ld asdsdv sdsd sd f fwsd"
-        list.add(model)
-
-        model = MainModel()
-        model.type = MainModelType.ITEM
-        model.isInComing = false
-        model.name = "askdas;ld asdsdv sdsd sd f fwsd"
-        list.add(model)
-
-        model = MainModel()
-        model.type = MainModelType.ITEM
-        model.isInComing = false
-        model.name = "askdas;ld asdsdv sdsd sd f fwsd"
-        list.add(model)
-
-        model = MainModel()
-        model.type = MainModelType.ITEM
-        model.isInComing = true
-        model.name = "askdas;ld asdsdv sdsd sd f fwsd"
-        list.add(model)
-
-        model = MainModel()
-        model.type = MainModelType.ITEM
-        model.isInComing = true
-        model.name = "askdas;ld asdsdv sdsd sd f fwsd"
-        list.add(model)
-
-        model = MainModel()
-        model.type = MainModelType.ITEM
-        model.isInComing = false
-        model.name = "askdas;ld asdsdv sdsd sd f fwsd"
-        list.add(model)
-
 
         model = MainModel()
         model.type = MainModelType.ITEM
@@ -142,17 +124,9 @@ class MainFragmentScreen @JvmOverloads constructor(
         model.name = "askdas;ld asdsdv sdsd sd f fwsd"
         list.add(model)
 
-
         model = MainModel()
-        model.type = MainModelType.ITEM
-        model.isInComing = true
-        model.name = "askdas;ld asdsdv sdsd sd f fwsd"
-        list.add(model)
-
-
-        model = MainModel()
-        model.type = MainModelType.ITEM
-        model.isInComing = true
+        model.type = MainModelType.CUSTOM
+        model.isInComing = false
         model.name = "askdas;ld asdsdv sdsd sd f fwsd"
         list.add(model)
 
@@ -167,6 +141,108 @@ class MainFragmentScreen @JvmOverloads constructor(
         model.isInComing = true
         model.name = "askdas;ld asdsdv sdsd sd f fwsd"
         list.add(model)
+
+        model = MainModel()
+        model.type = MainModelType.ITEM
+        model.isInComing = false
+        model.name = "askdas;ld asdsdv sdsd sd f fwsd"
+        list.add(model)
+
+
+        model = MainModel()
+        model.type = MainModelType.CUSTOM
+        model.isInComing = true
+        model.name = "askdas;ld asdsdv sdsd sd f fwsd"
+        list.add(model)
+
+        model = MainModel()
+        model.type = MainModelType.ITEM
+        model.isInComing = false
+        model.name = "askdas;ld asdsdv sdsd sd f fwsd"
+        list.add(model)
+
+
+        model = MainModel()
+        model.type = MainModelType.ITEM
+        model.isInComing = true
+        model.name = "askdas;ld asdsdv sdsd sd f fwsd"
+        list.add(model)
+
+
+        model = MainModel()
+        model.type = MainModelType.ITEM
+        model.isInComing = true
+        model.name = "askdas;ld asdsdv sdsd sd f fwsd"
+        list.add(model)
+
+        model = MainModel()
+        model.type = MainModelType.CUSTOM
+        model.isInComing = true
+        model.name = "askdas;ld asdsdv sdsd sd f fwsd"
+        list.add(model)
+
+        model = MainModel()
+        model.type = MainModelType.ITEM
+        model.isInComing = true
+        model.name = "askdas;ld asdsdv sdsd sd f fwsd"
+        list.add(model)
+
+        model = MainModel()
+        model.type = MainModelType.CUSTOM
+        model.isInComing = false
+        model.name = "askdas;ld asdsdv sdsd sd f fwsd"
+        list.add(model)
+
+
+        model = MainModel()
+        model.type = MainModelType.ITEM
+        model.isInComing = false
+        model.name = "askdas;ld asdsdv sdsd sd f fwsd"
+        list.add(model)
+
+
+
+        model = MainModel()
+        model.type = MainModelType.ITEM
+        model.isInComing = false
+        model.name = "askdas;ld asdsdv sdsd sd f fwsd"
+        list.add(model)
+
+
+        model = MainModel()
+        model.type = MainModelType.CUSTOM
+        model.isInComing = false
+        model.name = "askdas;ld asdsdv sdsd sd f fwsd"
+        list.add(model)
+
+
+        model = MainModel()
+        model.type = MainModelType.ITEM
+        model.isInComing = false
+        model.name = "askdas;ld asdsdv sdsd sd f fwsd"
+        list.add(model)
+
+
+        model = MainModel()
+        model.type = MainModelType.ITEM
+        model.isInComing = false
+        model.name = "askdas;ld asdsdv sdsd sd f fwsd"
+        list.add(model)
+
+        model = MainModel()
+        model.type = MainModelType.CUSTOM
+        model.isInComing = false
+        model.name = "askdas;ld asdsdv sdsd sd f fwsd"
+        list.add(model)
+
+
+        model = MainModel()
+        model.type = MainModelType.ITEM
+        model.isInComing = false
+        model.name = "askdas;ld asdsdv sdsd sd f fwsd"
+        list.add(model)
+
+
         model = MainModel()
         model.type = MainModelType.ITEM
         model.isInComing = false
@@ -180,6 +256,17 @@ class MainFragmentScreen @JvmOverloads constructor(
         model.name = "askdas;ld asdsdv sdsd sd f fwsd"
         list.add(model)
 
+        model = MainModel()
+        model.type = MainModelType.CUSTOM
+        model.isInComing = false
+        model.name = "askdas;ld asdsdv sdsd sd f fwsd"
+        list.add(model)
+
+        model = MainModel()
+        model.type = MainModelType.ITEM
+        model.isInComing = true
+        model.name = "askdas;ld asdsdv sdsd sd f fwsd"
+        list.add(model)
         return list
     }
 }

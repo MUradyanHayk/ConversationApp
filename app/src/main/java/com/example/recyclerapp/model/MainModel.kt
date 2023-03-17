@@ -8,6 +8,8 @@ class MainModel(
 
 enum class MainModelType {
     TITLE,
+    CUSTOM,
+    CUSTOM_TEXT_VIEW,
     ITEM
 }
 
